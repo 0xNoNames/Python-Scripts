@@ -1,0 +1,35 @@
+Bouche,口
+Soleil,日
+Lune,月
+Arbre,木
+Une personne,亻
+Deux personnes,彳
+Toit d'appartement,冖
+Toit de maison,宀
+Main moderne,扌
+Main classique/Encore,又
+Herbe,艹
+Coeur,心
+Jade,玉
+Cheval,马
+Petit,小
+Grand,大
+Pluie,雨
+Femme,女
+Racine,本
+Terre,土
+Céréale,禾
+Récipient,皿
+Privé,厶
+Poignard,匕
+Champs,田
+Force,力
+Montagne,山
+Mérite,可
+Crépuscule/Soir,夕
+Vaste,广
+Feu,火
+Bambou,竹
+Riz,米
+Animal/Chien,犭
+Homme,人
