@@ -8,7 +8,7 @@ def main(argv):
     ischarsGoodEmpty = False
 
     if (len(argv) < 2 or len(argv) > 4):
-        sys.exit("Utilisation: cheat.py path:'/path/to/dictionary.txt' word:'h***rd' [good_letters:'hrd'] [bad_letters:'qp']")
+        sys.exit("Utilisation: cheat.py path:'/path/to/dictionary.txt' word:'h___rd' [good_letters:'hrd'] [bad_letters:'qp']")
                 
     try:
         with open(argv[0], "r", encoding="utf8") as file:
@@ -31,13 +31,13 @@ def main(argv):
     if (len(argv) > 3):
         charsBad = argv[3].lower()
 
-    if (charsGood == "*"):
+    if (charsGood == "_"):
         ischarsGoodEmpty = True
 
     for word in dictionnary:
         if (len(word) < wordLen):
             continue
-        elif (len(word) == wordLen and (all([chars in word for chars in charsGood]) or ischarsGoodEmpty) and all([chars not in word for chars in charsBad]) and all([word[i] == charsPlace[i] or charsPlace[i] == "*" for i in range(len(word))])):
+        elif (len(word) == wordLen and (all([chars in word for chars in charsGood]) or ischarsGoodEmpty) and all([chars not in word for chars in charsBad]) and all([word[i] == charsPlace[i] or charsPlace[i] == "_" for i in range(len(word))])):
             wordGuesses.append(word)
         elif (len(word) > wordLen):
             break
